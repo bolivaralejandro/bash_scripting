@@ -1,0 +1,9 @@
+printf "Hello %s, how are you?" $USER
+#$1 is the first argument passed on the command line. We redirect the output to notes.txt. $* is all arugments.
+
+printf "p%st\n" a e i o u
+printf "%ss home in in %s" $USER $home
+printf "|%20s |%20s |%20s |\n" $(ls)
+printf -v greeting "Hello %s, how are you?\n" $USER
+
+can do a -x at top or set -x and set +x to debug lines
